@@ -20,7 +20,7 @@ jobs:
       - name: Change Directory
         run: cd final
       - name: Run Server
-        run: npm run dev
+        run: ls
       - name: Run Playwright tests
         run: npx playwright test
       - uses: actions/upload-artifact@v3
