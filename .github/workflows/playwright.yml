@@ -18,7 +18,7 @@ jobs:
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
       - name: Change Directory
-        run: cd final
+        run: cd final/
       - name: Run Server
         run: ls
       - name: Run Playwright tests
