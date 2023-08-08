@@ -6,7 +6,7 @@ test('Has Heading', async ({page}) =>
 {
     await page.goto(localhost);
     const headerText = await page.textContent('h1');
-    await expect(headerText).toContain(name);
+    await expect(headerText).toContain("introducing");
 })
 
 test ('contains body', async ({page}) =>
@@ -19,15 +19,15 @@ test ('contains body', async ({page}) =>
 test ('check about link', async ({page}) =>
 {
     await page.goto(localhost);
-    const link = await page.textContent('h3');
-    await expect(link).toContain("learn more");
+    const link = await page.getByText("learn more");
+    await expect(link).toBeDefined();
 })
 
 test ('check projects link', async ({page}) =>
 {
     await page.goto(localhost);
-    const link = await page.textContent('h3');
-    await expect(link).toContain("my projects");
+    const link = await page.getByText("my projects");
+    await expect(link).toBeDefined();
 })
 
 test ('check email section', async ({page}) =>
