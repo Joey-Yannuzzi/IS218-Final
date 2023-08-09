@@ -1,13 +1,13 @@
-import Head from 'next/head';
+import Link from 'next/link';
 import styles from '../styles/Home.module.css';
+import Layout from '../components/layout';
+import Footer from '../components/footer';
 
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/images/profile.jpg"/>
-      </Head>
+      <Layout>
+      </Layout>
 
       <main>
         <h1 className={styles.title}>
@@ -19,8 +19,8 @@ export default function Home() {
         <p className={styles.description}>
           An aspiring student at NJIT studying Game development and designLearn more below
         </p>
-        <h3><a href = "#">learn more</a></h3>
-        <h3><a href = "#">my projects</a></h3>
+        <h3><Link href = "#">learn more</Link></h3>
+        <h3><Link href = "#">my projects</Link></h3>
       </main>
 
       <section>
@@ -33,10 +33,7 @@ export default function Home() {
         </form>
       </section>
 
-      <footer>
-        <a href = "https://github.com"><img src = "/images/Github.png"/>Github</a>
-        <a href = "https://linkedin.com"><img src = "/images/Linkedin.png"/>Linkedin</a>
-      </footer>
+      <Footer></Footer>
     </div>
   )
 }
