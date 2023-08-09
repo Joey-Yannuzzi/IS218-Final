@@ -31,11 +31,10 @@ export default function Home({allData}) {
         <p className={styles.description}>
           An aspiring student at NJIT studying Game development and designLearn more below
         </p>
-        <h3>{allData.map(({id, name, title}) => 
+        {allData.map(({id, name, title}) => 
         (
-          <Link key = {id} href = {id}>{name}</Link>
-        ))}</h3>
-        <h3><Link href = "#">my projects</Link></h3>
+          <h3><Link key = {id} href = {id}>{name}</Link></h3>
+        ))}
       </main>
 
       <section>
