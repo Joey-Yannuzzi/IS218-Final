@@ -10,7 +10,7 @@ export default function About()
     </Layout>
     <main>
         <h1>about me</h1>
-        <Image src = "/images/profile.png" width = {242} height = {242}/>
+        <Image class = "images" src = "/images/profile.png" width = {242} height = {242}/>
         <p>Learn all about what makes me special and what drives me to thrive here</p>
     </main>
 
@@ -28,6 +28,12 @@ export default function About()
         <h2>skills</h2>
         <p>Placeholder text for journey, interests, and skills paragraphs.  I don’t know if I will fill out the information as to not leak personal information</p>
     </section>
-    <Footer></Footer></>
+
+    <br></br>
+    <br></br>
+    <br></br>
+
+    <Footer>
+    </Footer></>
     );
 }
