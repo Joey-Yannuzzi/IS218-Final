@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=DM Serif Display');
+@import url('https://fonts.googleapis.com/css?family=DM Serif Text');
+:root
+{
+    --background-color: #F5F5DC;
+    --primary-color: #555555;
+    --secondary-color: #808080;
+    --button-text-color: #FFFFFF;
+
+    --font-family: "DM Serif Display";
+    --secondary-font-family: "DM Serif Text";
+}
+
+body
+{
+    background-color: var(--background-color);
+}
+
+h1
+{
+    color: var(--primary-color);
+    font-family: var(--font-family);
+    font-size: 5.4375rem;
+    font-weight: 400;
+    line-height: normal;
+    font-style: normal;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+p
+{
+    color: var(--secondary-color);
+    font-family: var(--secondary-font-family);
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center; 
+}
+
+.images
+{
+    flex-shrink: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.buttonContainer
+{
+    width: 9.625rem;
+    height: 2.9375rem;
+    flex-shrink: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3
+{
+    border-radius: 11.75rem;
+    background: var(--primary-color);
+    color: var(--button-text-color);
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+}
+
+h2
+{
+    width: 34.8125rem;
+    color: var(--primary-color);
+    font-family: var(--font-family);
+    font-size: 3.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mailchimp
+{
+    flex-shrink: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.email
+{
+    width: 16.5rem;
+    height: 1.6875rem;
+    flex-shrink: 0;
+    color: var(--secondary-color);
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+}
+
+.submit
+{
+    width: 9.625rem;
+    height: 2.9375rem;
+    flex-shrink: 0;
+    border-radius: 11.75rem;
+    background: var(--primary-color);
+    color: var(--button-text-color);
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+}
+
+form
+{
+    text-align: center;
+}
+
+footer
+{
+    width: 90rem;
+    height: 6.40625rem;
+    flex-shrink: 0;
+}
+
+.footLink
+{
+    flex-shrink: 0;
+    margin-left: 4.68rem;
+    opacity: 0.25;
+}
+
+.footLink:hover
+{
+    opacity: 1;
+}
+
+.privacy
+{
+    width: 10.68006rem;
+    color: var(--secondary-color);
+    font-family: var(--font-family);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+    flex-shrink: 0;
+    margin-left: 4.68rem;
+    opacity: 0.25;
+}
+
+.privacy:hover
+{
+    opacity: 1;
+}
