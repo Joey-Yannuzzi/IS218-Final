@@ -17,35 +17,45 @@ export async function getStaticProps()
 
 export default function Home({allData}) {
   return (
-    <div className={styles.container}>
+    <div classname = {styles.background}>
       <Layout>
       </Layout>
 
       <main>
-        <h1 className={styles.title}>
+        <h1>
           introducing
         </h1>
-        <Image src = "/images/profile.png" width = {242} height = {242}/>
+        <Image src = "/images/profile.png" width = {242} height = {242} class = "images"/>
         <h1>Joey Yannuzzi</h1>
 
-        <p className={styles.description}>
-          An aspiring student at NJIT studying Game development and designLearn more below
+        <p>
+          An aspiring student at NJIT studying Game development and design.  Learn more below.
         </p>
-        {allData.map(({id, name, title}) => 
+        <div class = "buttonContainer">
+          {allData.map(({id, name, title}) => 
         (
-          <h3><Link key = {id} href = {id}>{name}</Link></h3>
+          <Link key = {id} href = {id}><h3>{name}</h3></Link>
         ))}
+        </div>
       </main>
 
+      <br></br>
+      <br></br>
+      <br></br>
+      
       <section>
         <h2>want to contact me?</h2>
+        <Image class = "mailchimp" src = "/images/mailchimp.png" width = {76} height = {76}/>
         <p>Sign up for mailchimp to get in touch</p>
-        <Image src = "/images/mailchimp.png" width = {76} height = {76}/>
         <form>
-          <input type = "email" value = "ENTER EMAIL HERE"></input>
-          <input type = "submit" value = "SUBMIT"></input>
+          <input class = "email" type = "email" id = "email"></input>
+          <input class = "submit" type = "submit" value = "SUBMIT"></input>
         </form>
       </section>
+
+      <br></br>
+      <br></br>
+      <br></br>
 
       <Footer></Footer>
     </div>
