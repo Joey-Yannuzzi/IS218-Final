@@ -8,7 +8,7 @@ export default function PrivacyPolicyPage(){
 
             <header>
                 <h1>Privacy Policy</h1>
-                <p>Last Updated: [8/9/2023]</p>
+                <p>Last Updated: 8/9/2023</p>
             </header>
             <main>
                 <h2>1. Information We Collect:</h2>
@@ -43,7 +43,7 @@ export default function PrivacyPolicyPage(){
                 <p>We may update our Privacy Policy. Any changes will be posted on this page.</p>
 
                 <h2>9. Contact Us:</h2>
-                <p>If you have questions or concerns, contact us at [contact email address].</p>
+                <p>If you have questions or concerns, contact us at joey-yannuzzi@email.com.</p>
             </main>
 
             <Footer></Footer>
