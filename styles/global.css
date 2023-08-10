@@ -73,6 +73,20 @@ h3
     text-transform: uppercase;
 }
 
+.policy
+{
+    background: var(--background-color);
+    color: var(--primary-color);
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+}
+
 h2
 {
     width: 34.8125rem;
