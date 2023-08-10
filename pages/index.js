@@ -47,9 +47,9 @@ export default function Home({allData}) {
         <h2>want to contact me?</h2>
         <Image class = "mailchimp" src = "/images/mailchimp.png" width = {76} height = {76}/>
         <p>Sign up for mailchimp to get in touch</p>
-        <form>
-          <input class = "email" type = "email" id = "email"></input>
-          <input class = "submit" type = "submit" value = "SUBMIT"></input>
+        <form action="https://njit.us21.list-manage.com/subscribe/post?u=3f1e4ab292a2df6ae62a44e15&amp;id=9060324661&amp;f_id=00315ce1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+          <input class = "email" type = "email" id = "email" name="b_3f1e4ab292a2df6ae62a44e15_9060324661" tabindex="-1"></input>
+          <input class = "submit" type = "submit" value = "SUBMIT" name="subscribe" id="mc-embedded-subscribe"></input>
         </form>
       </section>
 
